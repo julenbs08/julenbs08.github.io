@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos de Selectores que Entrarán en Examen</title>
+    <style>
+        * {font-family: Arial, sans-serif}
+        .ejemplo-clase {color: blue}
+        #ejemplo-id {color: red}
+        ol li {color: green}
+        p:hover {color: purple}
+    </style>
+</head>
+
+<body>
+
+    <h1>Tipos de selectores que entran en examen</h1>
+    <h2>Clase (class=””)</h2>
+    <p class="ejemplo-clase">Este es un ejemplo de un párrafo con la clase "ejemplo-clase". El texto de este párrafo se mostrará en color azul.</p>
+    <p>El selector de clase se utiliza para aplicar estilos a elementos que comparten la misma clase. Se puede usar para aplicar estilos a varios elementos a la vez sin importar su tipo.</p>
+    <h2>Identificador (id=””)</h2>
+    <p id="ejemplo-id">Este es un ejemplo de un párrafo con el id "ejemplo-id". El texto de este párrafo se mostrará en color rojo.</p>
+    <p>El selector de identificador se utiliza para aplicar estilos a un único elemento que tenga un id específico. Los identificadores deben ser únicos en una página HTML.</p>
+    <h2>Todos los elementos (*)</h2>
+    <p>Este párrafo usa el selector universal (*) para aplicar la fuente "Arial" a todos los elementos de la página.</p>
+    <p>El selector universal (*) aplica el estilo a todos los elementos dentro del documento HTML.</p>
+    <h2>Varios elementos (p, em, h1, h2)</h2>
+    <p>Este es un párrafo. <em>Este es un texto en cursiva usando la etiqueta em.</em> Y este es un </p><h1>encabezado de nivel 1</h1>.
+    <p>En este caso, se aplicaron estilos a los elementos p, em, h1 y h2 para hacer que su texto aparezca en cursiva.</p>
+    <h2>Elementos contenidos en otros elementos (ol li)</h2>
+    <ol>
+        <li>Primer elemento de la lista</li>
+        <li>Segundo elemento de la lista</li>
+        <li>Tercer elemento de la lista</li>
+    </ol>
+    <p>El selector de elementos contenidos en otros elementos aplica estilos a los li dentro de una lista ordenada ol. En este caso, los elementos de la lista se muestran en color verde.</p>
+    <h2>Sobrevuleo (p:hover)</h2>
+    <p>Coloca el cursor sobre este párrafo para ver cómo cambia de color al pasar el mouse sobre él.</p>
+    <p>El selector hover se utiliza para aplicar estilos cuando el usuario pasa el mouse sobre un elemento. En este caso, el color del texto cambiará a morado cuando pases el ratón sobre el párrafo.</p>
+</body>
+
+</html>
+
